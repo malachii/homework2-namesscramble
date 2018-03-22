@@ -13,8 +13,8 @@ int main()
 	cin >> str2;
 	random_shuffle(str1.begin(), str1.end());
 	random_shuffle(str2.begin(), str2.end());
-	cout << str1 << '\n';
-	cout << str2 << '\n';
+	cout << str1 << "" << str2  << '\n';
+	//cout << str2 << '\n';
 	cout << "Your name should be confused";
 	return 0;
 
